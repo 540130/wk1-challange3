@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Rates for 2023</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Tax Rates for 2023</h1>
+        <section id="paye">
+            <h2>PAYE</h2>
+            <table>
+                <tr>
+                    <th>Monthly Taxable Pay (Ksh)</th>
+                    <th>Annual Taxable Pay (Ksh)</th>
+                    <th>Rate of Tax (%)</th>
+                </tr>
+                <tr>
+                    <td>Up to 24,000</td>
+                    <td>Up to 288,000</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>24,001 - 32,333</td>
+                    <td>288,001 - 388,000</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Above 32,333</td>
+                    <td>Above 388,000</td>
+                    <td>30</td>
+                </tr>
+            </table>
+        </section>
+php
+Copy code
+    <section id="other-paye-parameters">
+        <h2>Other PAYE Parameters</h2>
+        <table>
+            <tr>
+                <th>Monthly Limit (Ksh)</th>
+                <th>Annual Limit (Ksh)</th>
+                <th>Effective Since</th>
+            </tr>
+            <tr>
+                <td>2,400</td>
+                <td>28,800</td>
+                <td>25 April 2020</td>
+            </tr>
+            <tr>
+                <td>5,000</td>
+                <td>60,000</td>
+                <td>1 January 2007</td>
+            </tr>
+            <tr>
+                <td>20,000</td>
+                <td>240,000</td>
+                <td>1 January 2006</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>1 January 2021</td>
+            </tr>
+            <tr>
+                <td>9,000</td>
+                <td>108,000</td>
+                <td>1 July 2018</td>
+            </tr>
+            <tr>
+                <td>25,000</td>
+                <td>300,000</td>
+                <td>1 January 2017</td>
+            </tr>
+            <tr>
+                <td>150,000</td>
+                <td>1,800,000</td>
+                <td>10 March 2010</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="fringe-benefit-tax">
+        <h2>Fringe Benefit Tax</h2>
+        <p>The employer is required to pay fringe benefit tax on loans advanced to employees at an interest rate below
+            the prevailing market interest rate.</p>
+        <p>Market interest rates for 2023:</p>
+        <table>
+            <tr>
+                <th>Quarter</th>
+                <th>Interest Rate (%)</th>
+            </tr>
+            <tr>
+                <td>January to March</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>April to June</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>July to September</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>October to December</td>
+                <td>-</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="nhif">
+        <h2>NHIF</h2>
+        <p>NHIF rates in effect from 1 April 2015:</p>
+        <table>
+            <tr>
+                <th>Gross Pay (Ksh)</th>
+                <th>Deduction (Ksh)</th>
+                <th>Gross Pay (Ksh)</th>
+                <th>Deduction (Ksh)</th>
+            </tr>
+            <tr>
+                <td>Up to 5,999</td>
+                <td>150</td>
+                <td>40,000 - 44,999</td>
+                <td>1,000</td>
+            </tr>
+            <tr>
+                <td>6,000 - 7,999</td>
+                <td>300</td>
+                <td>45,000 - 49,999</td>
+                <td>1,100</td>
+            </tr>
+            <tr>
+                <td>8,000 - 11,999</td>
+                <td>400</td>
+                <td>50,000 - 59,999</td>
+                <td>1,200</td>
+            </tr>
+            <tr>
+                <td>12,000 - 14,999</td>
+                <td>500</td>
+                <td>60,000 - 69,999</td>
+                <td>1,300</td>
+            </tr>
+            <tr>
+                <td>15,000 - 19,999</td>
+                <td>600</td>
+                <td>70,000 - 79,999</td>
+                <td>1,400</td>
+            </tr>
+            <tr>
+                <td>20,000 - 24,999</td>
+                <td>750</td>
+                <td>80,000 - 89,999</td>
+                <td>1,500</td>
+            </tr>
+            <tr>
+                <td>25,000 - 29,999</td>
+                <td>850</td>
+                <td>90,000 - 99,999</td>
+                <td>1,600</td>
+            </tr>
+            <tr>
+                <td>30,000 - 34,999</td>
+                <td>900</td>
+                <td>100,000 and above</td>
+                <td>1,700</td>
+            </tr>
+            <tr>
+                <td>35,000 - 39,999</td>
+                <td>950</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="nssf">
+        <h2>NSSF</h2>
+        <p>The new NSSF Act came into effect on 10 January 2014. Under this act, contributions to NSSF are divided into
+            Tier I and Tier II.</p>
+        <p>Organizations may opt out of Tier II contributions if they have an alternative pension scheme in place.</p>
+        <p>The employer and employee each contribute 6% of pensionable pay to NSSF, subject to the following monthly
+            limits:</p>
+        <table>
+            <tr>
+                <th>Tier</th>
+                <th>Pensionable Pay</th>
+            </tr>
+            <tr>
+                <td>I</td>
+                <td>Up to 6,000</td>
+            </tr>
+            <tr>
+                <td>II</td>
+                <td>6,001 - 18,000</td>
+            </tr>
+        </table>
+    </section>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
